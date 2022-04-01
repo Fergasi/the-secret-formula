@@ -1,9 +1,9 @@
 // Part 1 - The Alerter
 
 let inputText = document.querySelector('#inputText');
-let usernameForm = document.querySelector('#usernameForm');
+let alertForm = document.querySelector('#alertForm');
 
-usernameForm.addEventListener('submit', function(event){
+alertForm.addEventListener('submit', function(event){
    
     //event.preventDefault();
     

@@ -7,12 +7,10 @@
     <link href="./styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    
-    <form id="usernameForm">
+    <h1>The Alerter 🚨</h1>
+    <form id="alertForm">
         <div>
-            <label>Enter your username:</label>
-            <br>
-            <br>
+            <label>Enter Text:</label>
             <input id="inputText" type="text" autocomplete="off" placeholder="EasyMoneySniper7"/>
         </div>
         <br>
@@ -104,15 +102,15 @@
       <div id="hairLength">
             <div>
                 <label>Short</label>
-                <input type="radio" id="short">
+                <input type="radio" id="short" name="hairchoice">
             </div>
             <div>
                 <label>Medium</label>
-                <input type="radio" id="medium">
+                <input type="radio" id="medium" name="hairchoice">
             </div>
             <div>
                 <label>Long</label>
-                <input type="radio" id="long">
+                <input type="radio" id="long" name="hairchoice">
             </div>
         </div>
         <br>
@@ -153,7 +151,7 @@
         <div>
             <input type="submit" value="Create Account" id="createAccount">
         </div>
-
+        <br>
     </form>
 
     <script src="main.js"></script>
